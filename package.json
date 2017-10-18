@@ -1,0 +1,27 @@
+{
+  "name": "allex_treetraversinglowlevellib",
+  "version": "1.0.0",
+  "description": "AllexJS low level lib for in-order tree traversing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allex-lowlevel-libs/treetraversing.git"
+  },
+  "keywords": [
+    "ecosystem:AllexJS",
+    "tree",
+    "traversing",
+    "low",
+    "level",
+    "lib"
+  ],
+  "author": "Andrija Petrovic <andrija.hers@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allex-lowlevel-libs/treetraversing/issues"
+  },
+  "homepage": "https://github.com/allex-lowlevel-libs/treetraversing#readme"
+}
