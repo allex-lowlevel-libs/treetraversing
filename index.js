@@ -19,7 +19,7 @@ function createTraverser (isArray, q) {
     if (!this.cb) {
       return;
     }
-    if (!lib.isArray(patharry)) {
+    if (!isArray(patharry)) {
       return;
     }
     if (patharry.length === this.depth+1) {
@@ -34,7 +34,7 @@ function createTraverser (isArray, q) {
   };
   TreeTraverser.prototype.onNodesFetched = function (patharry, nodenames) {
     var ret;
-    if (!lib.isArray(nodenames)) {
+    if (!isArray(nodenames)) {
       return q(null);
     }
     ret = q.all(nodenames.map(longerpathproducer.bind(this, patharry)));
